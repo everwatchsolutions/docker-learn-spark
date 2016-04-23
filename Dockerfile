@@ -1,4 +1,4 @@
-FROM sequenceiq/spark:1.5.1
+FROM sequenceiq/spark:1.6.0
 
 MAINTAINER Analysis, Computing and Engineering Solutions, Incorporated (ACES, Inc)
 
