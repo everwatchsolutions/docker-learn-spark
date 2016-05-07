@@ -72,3 +72,9 @@ this may take a while ... but eventually you will see the spark ascii art and th
   ``` 
   df.groupBy("sender").count().sort($"count".desc).show()
   ```    
+  
+### Limit results
+
+``` 
+df.groupBy("sender").count().sort($"count".desc).limit(2).show()
+```  
