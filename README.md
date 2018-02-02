@@ -1,4 +1,4 @@
-# Learning Spark
+# Learning Spark (2.2.1)
 ## Intro
 
 This project uses Docker to launch you into an environment with spark locally installed and some data prepopulated.
@@ -27,7 +27,7 @@ this may take a while ... but eventually you will see the spark ascii art and th
 ### Load the data into a DataFrame
 
   ``` 
-  val df = sqlContext.jsonFile("data/enron-data.json.gz")
+  val df = spark.sqlContext.jsonFile("data/enron-data.json.gz")
   ```
   
 ### Count the records
